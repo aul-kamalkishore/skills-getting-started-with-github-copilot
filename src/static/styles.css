@@ -99,6 +99,26 @@ section h3 {
   border-radius: 3px;
   font-size: 14px;
   color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 8px;
+  margin-left: 10px;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.delete-btn:hover {
+  transform: scale(1.2);
+  background-color: rgba(255, 0, 0, 0.1);
+  border-radius: 4px;
 }
 
 .no-participants {
